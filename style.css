@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.table-responsive {
+    margin: 2% auto; /* Adjust margin for smaller screens */
+    width: 96%; /* Adjust width for smaller screens */
+    overflow-x: auto; /* Allow horizontal scrolling on small screens */
+}
+
+.table {
+    width: 100%;
+    background-color: #fff;
+}
+
+.table th, .table td {
+    padding: 1em; /* Adjust padding for smaller screens */
+}
+
+.table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.btn {
+    cursor: pointer;
+    margin: 1em; /* Adjust margin for smaller screens */
+    padding: 0.5em 1em; /* Adjust padding for smaller screens */
+}
